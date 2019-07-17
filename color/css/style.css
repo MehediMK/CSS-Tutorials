@@ -4,6 +4,9 @@
 }
 
 .color {
+    /*this attribute used for canage text color*/
     color: green;
+    /* this attribute use change backgorund color*/
+
     background-color: orange;
 }
