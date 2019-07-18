@@ -5,7 +5,7 @@
 - [x] BORDER RADIUS
 - [x] BORDER OUTLINE
 - [] MARGIN
-- [] PADDING
+- [x] PADDING
 - [] HEIGHT & WIDTH
 - [] BOX MODEL
 - [] TEXT

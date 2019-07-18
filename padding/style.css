@@ -1,0 +1,47 @@
+.box {
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    line-height: 150px;
+    color: white;
+    font-size: 25px;
+    background-color: red;
+    float: left;
+    margin: 10px;
+    margin-left: 50px;
+
+}
+
+p {
+    border: 2px solid yellow;
+}
+
+.box1 {
+
+    padding: 50px;
+}
+
+.box2 {
+
+    padding-left: 50px;
+    background-color: #1689ed;
+}
+
+.box3 {
+
+    padding-right: 50px;
+    background-color: #d18a03;
+}
+
+.box4 {
+
+    padding-top: 50px;
+    background-color: aqua;
+    color: red;
+}
+
+.box5 {
+
+    padding-bottom: 50px;
+    background-color: black
+}
