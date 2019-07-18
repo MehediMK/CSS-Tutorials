@@ -1,0 +1,54 @@
+body {
+    font-family: monospace;
+    font-size: 25px;
+
+}
+
+.box {
+    height: auto;
+    width: 400px;
+}
+
+p {
+
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-left: 100px;
+    float: left;
+    border: 1px solid orange;
+}
+
+.p0 {
+
+    /*those are ouline attubute below*/
+    outline-style: dashed;
+    outline-color: green;
+    outline-offset: 10px;
+    outline-width: 5px;
+}
+
+.p1 {
+    outline: 10px solid red;
+    outline-offset: 10px;
+}
+
+.p2 {
+    outline: 10px groove red;
+    outline-offset: 10px;
+}
+
+.p3 {
+    outline: 10px inset red;
+    outline-offset: 10px;
+}
+
+.p4 {
+    outline: 10px outset red;
+    outline-offset: 10px;
+}
+
+.p5 {
+    outline: 10px ridge red;
+    outline-offset: 10px;
+}
