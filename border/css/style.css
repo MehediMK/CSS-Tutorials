@@ -1,0 +1,71 @@
+body {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+p {
+    width: 500px;
+    height: auto;
+    text-align: center;
+    margin-left: 100px;
+}
+
+.text1 {
+    border-style: dashed;
+    border-width: 15px;
+    border-color: red;
+}
+
+.text2 {
+    border-style: dotted;
+    border-width: 15px;
+    border-color: red;
+}
+
+.text3 {
+    border-style: solid;
+    border-width: 15px;
+    border-color: red;
+}
+
+.text4 {
+    border-style: inset;
+    border-width: 15px;
+    border-color: red;
+}
+
+.text5 {
+    border-style: outset;
+    border-width: 15px;
+    border-color: green;
+}
+
+.text6 {
+    border-style: double;
+    border-width: 15px;
+    border-color: green;
+}
+
+.text7 {
+    border-style: groove;
+    border-width: 15px;
+    border-color: green;
+}
+
+.text8 {
+    border-style: ridge;
+    border-width: 15px;
+    border-color: green;
+}
+
+.text9 {
+    border-style: hidden;
+    border-width: 15px;
+    border-color: green;
+}
+
+.text10 {
+    border-bottom-style: solid;
+    border-width: 15px;
+    border-color: green;
+}
