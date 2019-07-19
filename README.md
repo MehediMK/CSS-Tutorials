@@ -7,7 +7,7 @@
 - [x] PADDING
 - [x] ANIMATION
 - [x] ANIMATION-FILL-MODE
-- [] ANIMATION-FILL-MODE
+- [] ANIMATION-play-state
 - [] MARGIN
 - [] HEIGHT & WIDTH
 - [] BOX MODEL
