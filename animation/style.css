@@ -1,0 +1,73 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -100px;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+    margin-left: 50px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    margin-top: -100px;
+    animation-name: persentage;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes persentage {
+    0% {
+        background-color: red;
+        border-radius: 0%;
+    }
+
+    25% {
+        background-color: blue;
+        border-radius: 25%;
+
+    }
+
+    50% {
+        background-color: green;
+        border-radius: 50%;
+
+    }
+
+    75% {
+        background-color: orange;
+        border-radius: 75%;
+
+    }
+
+    100% {
+        background-color: crimson;
+        background-color: 100%;
+    }
+
+}
+
+@keyframes example {
+    from {
+        border-radius: 0%;
+
+    }
+
+    to {
+        border-radius: 50%;
+        background-color: red;
+    }
+}
