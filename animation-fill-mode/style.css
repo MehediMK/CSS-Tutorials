@@ -1,0 +1,60 @@
+.box1 {
+    width: 200px;
+    height: 80px;
+    background-color: tomato;
+    margin-bottom: 50px;
+    animation-name: back;
+    animation-duration: 3s;
+    animation-fill-mode: backwards;
+}
+
+.box2 {
+    width: 200px;
+    height: 80px;
+    margin-bottom: 50px;
+    background-color: yellow;
+    animation-name: forword;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+.box3 {
+    width: 200px;
+    height: 80px;
+    margin-bottom: 50px;
+    background-color: blue;
+    animation-name: bot;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+
+
+@keyframes back {
+    0% {
+        width: 200px;
+    }
+
+    100% {
+        width: 300px;
+    }
+}
+
+@keyframes forword {
+    0% {
+        width: 200px;
+    }
+
+    100% {
+        width: 300px;
+    }
+}
+
+@keyframes bot {
+    0% {
+        width: 200px;
+    }
+
+    100% {
+        width: 300px;
+    }
+}
