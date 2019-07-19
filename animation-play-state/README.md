@@ -1,0 +1,66 @@
+# Animation play state attribute in css with example
+
+1. animation-paly-state:pasused;
+2. animation-play-state:running;
+
+## example of Animation-paly-state:pasused;
+```
+.box1 {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 100px;
+    background-color: aqua;
+    animation-name: exam1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+
+}
+
+.box1:hover {
+    animation-play-state: paused;
+}
+
+
+@keyframes exam1 {
+    from {
+        width: 0px;
+    }
+
+    to {
+        width: 400px;
+        background-color: tomato;
+    }
+
+}
+```
+
+## example of Animation-play-state:running;
+```
+
+.box2 {
+    width: 150px;
+    height: 150px;
+    background-color: tomato;
+    animation-name: exam2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+
+.box2:hover {
+    animation-play-state: running;
+}
+
+@keyframes exam2 {
+    from {
+        width: 150px;
+
+    }
+
+    to {
+        width: 400px;
+        background-color: blue;
+    }
+}
+```
