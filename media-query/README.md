@@ -1,6 +1,27 @@
-# Media Queries tutorial with example below:
+# Media Queries and user-select tutorial with example below:
 
-===
+---
+
+
+
+## User-select example code given below:
+
+```
+.box1 {
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    user-select: all;
+}
+
+.box1::selection {
+    background-color: green;
+}
+```
+## media quries example code:
 
 > @media screen and (max-width:980){}
 
