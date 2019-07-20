@@ -8,6 +8,7 @@
 - [x] ANIMATION
 - [x] ANIMATION-FILL-MODE
 - [x] ANIMATION-play-state
+- [x] BOX-SIZING
 - [] MARGIN
 - [] HEIGHT & WIDTH
 - [] BOX MODEL
@@ -70,4 +71,3 @@
 - [] TEXT-DECORATION
 - [] TEXT-FORMATING
 - [] CLEAR
-- [] BOX-SIZING
