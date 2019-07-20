@@ -1,0 +1,29 @@
+body {
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.box {
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 50px;
+    margin: 20px;
+    text-align: justify;
+    float: left;
+}
+
+p {
+    border: 1px solid blue;
+}
+
+.box1 {
+    width: 500px;
+    height: 500px;
+    border: 1px solid red;
+    box-sizing: content-box;
+    padding: 50px;
+    text-align: justify;
+    float: left;
+}
