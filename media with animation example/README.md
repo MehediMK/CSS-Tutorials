@@ -1,0 +1,37 @@
+# Media quries with animation example given below:
+
+```
+.box1 {
+    height: 80px;
+    width: 150px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@media screen and (max-width:980px) {
+    .box1 {
+        background-color: aqua;
+        animation-name: example1;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+    }
+}
+
+@keyframes example {
+    from {
+        width: 0px;
+        background-color: blue;
+    }
+
+    to {
+        width: 400px;
+        background-color: yellow;
+    }
+}
+```
