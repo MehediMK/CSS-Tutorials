@@ -11,6 +11,7 @@
 - [x] BOX-SIZING
 - [x] MEDIA QUERIES
 - [x] USER-SELECT
+- [x] Flex
 - [] MARGIN
 - [] HEIGHT & WIDTH
 - [] BOX MODEL
