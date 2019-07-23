@@ -1,0 +1,40 @@
+.container {
+    width: 300px;
+    background-color: gainsboro;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box1 {
+    background-color: tomato;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3 {
+    background-color: red;
+}
+
+.box4 {
+    background-color: yellow;
+}
+
+.box5 {
+    background-color: aqua;
+}
+
+.box6 {
+    color: red;
+    background-color: white;
+}
