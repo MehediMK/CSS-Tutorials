@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: auto;
+    height: 100vh;
+    background-color: gainsboro;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+
+
+}
+
+.box {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.box1 {
+    background-color: tomato;
+}
+
+.box2 {
+    background-color: blue;
+}
+
+.box3 {
+    background-color: red;
+}
+
+.box4 {
+    background-color: yellow;
+}
+
+.box5 {
+    background-color: aqua;
+}
+
+.box6 {
+    color: red;
+    background-color: white;
+}
